@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
